@@ -13,22 +13,22 @@
             <table>
                 <tr>
                     <td>Codigo Cursos: </td>
-                    <td><input type="text" name="codigo_curso" ></td>
+                    <td><input type="text" name="codigo_curso" required></td>
                 </tr>
                 <tr>
                     <td>Nombre: </td>
-                    <td><input type="text" name="nombre" ></td>
+                    <td><input type="text" name="nombre" required ></td>
                 </tr>
                 <tr>
                     <td colspan="2"><p></p><?php $estilo = array('Presencial', 'A distancia', 'Semipresencial'); ?>
                     <?php foreach ($estilo as $val) {?>
-                        <input type="radio" name="estilo" value="<?php echo $val ?>">  <?php echo $val ?>
+                        <input type="radio" name="estilo" value="<?php echo $val ?>" required>  <?php echo $val ?>
                     <?php }?></p>
                     </td>
                 </tr>
                 <tr>
                     <td>Horas duracion: </td>                      
-                    <td><input type="text" name="horas_duracion" ></textarea></td>
+                    <td><input type="text" name="horas_duracion" required></textarea></td>
                 </tr>
                 <tr>
                     <td>Descripcion: </td>

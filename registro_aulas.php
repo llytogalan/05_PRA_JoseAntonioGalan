@@ -29,8 +29,9 @@
                 <td><textarea name="descripcion" id="descripcion" cols="18" rows="5">Introduce descripcion...</textarea></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Aceptar" name="aceptar">
-                    <input type="button" value="Cancelar" name="cancelar"></td>
+                <td colspan="2"><input type="submit" value="Aceptar" name="aceptar">
+                    <input type="button" value="Cancelar" name="cancelar">
+                    <input type="submit" value="Leer" name="leer"></td>
             </tr>
             
             
