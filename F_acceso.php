@@ -12,8 +12,8 @@
             if (isset($_POST['submit'])) {
                 $usuario=$_POST['usuario'];
                 $clave=$_POST['contraseña'];
-                $_SESSION= $_POST['usuario'];
-                $_SESSION=$_POST['contraseña'];
+                $_SESSION['usuario'] = $_POST['usuario'];
+                $_SESSION['contraseña'] = $_POST['contraseña'];
                 if ($usuario=="profesor") {
                     header("Location: form_cursos.php");
                 }

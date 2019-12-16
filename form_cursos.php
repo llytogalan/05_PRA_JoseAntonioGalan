@@ -5,6 +5,10 @@
     </head>
     <body>
         <h1>Formulario de Registro de Cursos</h1>
+        <?php
+            session_start();
+            echo "Estas registrador como ".$_SESSION['usuario']."<br>"; 
+        ?>
         <form action="#" method="POST">
             <table>
                 <tr>
@@ -26,7 +30,7 @@
                 <tr>
                     <td><input type="submit" value="Aceptar" name="aceptar">
                         <input type="button" value="Cancelar" name="cancelar"></td>
-                    <td><a href="./registro_aulas.php">Registro de Aulas</a></td>
+                    <td><a href="registro_aulas.php">Registro de Aulas</a></td>
                 </tr>    
             </table>
         </form>

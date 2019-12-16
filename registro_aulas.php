@@ -6,6 +6,10 @@
 </head>
 <body class="center">
     <h1>Formulario Registro de Aulas</h1>
+    <?php
+            session_start();
+            echo "Estas registrador como ".$_SESSION['usuario']."<br>"; 
+        ?>
     <form action="#" method="POST">
         <table>
             <tr>
