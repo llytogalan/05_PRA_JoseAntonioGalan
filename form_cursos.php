@@ -26,7 +26,7 @@
                 <tr>
                     <td><input type="submit" value="Aceptar" name="aceptar">
                         <input type="button" value="Cancelar" name="cancelar"></td>
-                    <td><a href="./registro_aulas.html">Registro de Aulas</a></td>
+                    <td><a href="./registro_aulas.php">Registro de Aulas</a></td>
                 </tr>    
             </table>
         </form>

@@ -15,10 +15,10 @@
                 $_SESSION= $_POST['usuario'];
                 $_SESSION=$_POST['contraseña'];
                 if ($usuario=="profesor") {
-                    header("Location: form_cursos.html");
+                    header("Location: form_cursos.php");
                 }
                 elseif ($usuario=="administrador") {
-                    header("Location: registro_aulas.html");
+                    header("Location: registro_aulas.php");
                 }
                 else {
                     header("Location: form_reg_alumno.html");
