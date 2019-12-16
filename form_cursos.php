@@ -20,10 +20,10 @@
                     <td><input type="text" name="nombre" ></td>
                 </tr>
                 <tr>
-                    <td coldspan="2"><?php $estilo = array('Presencial', 'A distancia', 'Semipresencial'); ?>
+                    <td colspan="2"><p></p><?php $estilo = array('Presencial', 'A distancia', 'Semipresencial'); ?>
                     <?php foreach ($estilo as $val) {?>
                         <input type="radio" name="estilo" value="<?php echo $val ?>">  <?php echo $val ?>
-                    <?php }?>
+                    <?php }?></p>
                     </td>
                 </tr>
                 <tr>
