@@ -7,7 +7,19 @@
         <h1>Formulario de Registro de Cursos</h1>
         <?php
             session_start();
-            echo "Estas registrador como ".$_SESSION['usuario']."<br>"; 
+            echo "Estas registrador como ".$_SESSION['usuario']."<br>";
+
+            if (isset($_POST['aceptar'])) {
+                $codigo_curso = $_POST['codigo_curso'];
+                $nombre = $_POST['nombre'];
+                $estilo = $_POST['estilo'];
+                $horas_duracion = $_POST['horas_duracion'];
+                $_SESSION['codigo_curso'] = $_POST['codigo_curso'];
+                $_SESSION['nombre'] = $_POST ['nombre'];
+                $_SESSION['estilo'] = $_POST['estilo'];
+                $_SESSION['horas_duracion'] = $_POST['horas_duracion'];
+            }
+                
         ?>
         <form action="#" method="POST">
             <table>
