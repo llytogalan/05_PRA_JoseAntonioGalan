@@ -14,11 +14,14 @@
                 $clave=$_POST['contraseña'];
                 $_SESSION= $_POST['usuario'];
                 $_SESSION=$_POST['contraseña'];
-                if ($usuario="profesor") {
-                    header("Location: ./form_cursos.html");
+                if ($usuario=="profesor") {
+                    header("Location: form_cursos.html");
                 }
-                elseif ($usuario="administrador") {
-                    header("Location: ./registro_aulas.html");
+                elseif ($usuario=="administrador") {
+                    header("Location: registro_aulas.html");
+                }
+                else {
+                    header("Location: form_reg_alumno.html");
                 }
             }
         ?>
