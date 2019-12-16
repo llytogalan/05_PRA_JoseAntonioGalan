@@ -20,6 +20,13 @@
                     <td><input type="text" name="nombre" ></td>
                 </tr>
                 <tr>
+                    <td coldspan="2"><?php $estilo = array('Presencial', 'A distancia', 'Semipresencial'); ?>
+                    <?php foreach ($estilo as $val) {?>
+                        <input type="radio" name="estilo" value="<?php echo $val ?>">  <?php echo $val ?>
+                    <?php }?>
+                    </td>
+                </tr>
+                <tr>
                     <td>Horas duracion: </td>                      
                     <td><input type="text" name="horas_duracion" ></textarea></td>
                 </tr>
