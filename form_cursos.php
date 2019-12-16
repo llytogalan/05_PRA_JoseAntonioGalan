@@ -18,6 +18,7 @@
                 $_SESSION['nombre'] = $_POST ['nombre'];
                 $_SESSION['estilo'] = $_POST['estilo'];
                 $_SESSION['horas_duracion'] = $_POST['horas_duracion'];
+                $_SESSION['descripcion_cursos']=$_POST['descripcion'];
             }
                 
         ?>
