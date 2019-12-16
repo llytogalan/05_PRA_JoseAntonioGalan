@@ -6,17 +6,29 @@
     </head>
     <body>
         <div id="form_reg_alu">
+            <h1>Formulario registro de Alumnos</h1>
             <form method="POST" action="./index.html">
                 <table>
                     <tr>
-                        <td>Nombre:</td><td><input type="text" ></td>
+                        <td>Nombre: </td>
+                        <td><input type="text" name="nombre" ></td>
                     </tr>
                     <tr>
-                        <td>Apellidos</td><td><input type="text" ></td>
+                        <td>Apellidos: </td>
+                        <td><input type="text" name="apellidos" ></td>
                     </tr>
                     <tr>
-                        <td><input type="button" value="Aceptar"></td><td><a href="./index.html"><input type="button" value="Atras"><a></td>
-                        </tr>
+                        <td>Edad: </td>
+                        <td><input type="text" name="edad" ></td>
+                    </tr>
+                    <tr>
+                        <td>Direccion: </td>
+                        <td><input type="text" name="direccion" ></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Aceptar" name="aceptar"></td>
+                        <td><a href="./index.html"><input type="button" value="Atras"><a></td>
+                    </tr>
                 </table>
             </form>
         </div>
