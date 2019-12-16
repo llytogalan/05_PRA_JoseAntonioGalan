@@ -5,20 +5,17 @@
     <link rel="stylesheet" type="text/css" href="./Estilo/registro_aulas.css"/>
 </head>
 <body class="center">
-    <form action="#" method="post">
-       <h2>Ingrese los datos del aula:</h2></br></br>
-        <label>Nombre del aula</label>
-        <input type="text" name="nombreAula" size="20"/></br></br>
-        <label>Planta</label>
-        <input type="text" name="planta" size="10"/></br></br>
-        <label>Edificio</label>
-        <input type="text" name="edificio" size="10"/></br></br>
-        <label>Capacidad</label>
-        <input type="text" name="capacidad" size="10"/></br></br>
-        <label>Descripción</label></br>
-        <textarea name="descripcion" rows="5" cols="60" id="descripciion"></textarea></br></br>
-        <input type="button" value="Aceptar" />
-        <a href="./registro_aulas.html"><input type="button" value="Cancelar" /></a>
+    <form action="#" method="POST">
+        <table>
+            <tr>
+                <td>Nombre del aula: </td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr>
+                <td>Capacidad: </td>
+                <td><input type="text" name="capacidad"></td>
+            </tr>
+        </table>
     </form>
 </body>
 </htlm>
